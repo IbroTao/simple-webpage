@@ -181,9 +181,9 @@ ul li a:hover {
   width: 220px;
   font-family: sans-serif;
   text-align: center;
-  color: #0e7988;
+  color: #000;
   font-size: 18px;
-  background-color: #fff;
+  background-color: #0e7988;
   border-radius: 10px;
   margin: 2px;
   padding: 8px;
@@ -253,6 +253,7 @@ ul li a:hover {
   padding-top: 15px;
   padding-bottom: 10px;
   text-align: center;
+  font-size: 14px;
 }
 
 .icons a {
@@ -261,6 +262,13 @@ ul li a:hover {
 }
 
 .icons ion-icon {
-  color: #fff;
+  color: #0e7988;
   font-size: 30px;
+  padding-left: 14px;
+  padding-top: 5px;
+  transition: 0.3s ease;
+}
+
+.icons ion-icon:hover {
+  color: #fff;
 }
