@@ -254,3 +254,13 @@ ul li a:hover {
   padding-bottom: 10px;
   text-align: center;
 }
+
+.icons a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.icons ion-icon {
+  color: #fff;
+  font-size: 30px;
+}
