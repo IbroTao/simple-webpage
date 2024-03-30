@@ -90,3 +90,22 @@ ul li a:hover {
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
 }
+
+.btn {
+  width: 100px;
+  height: 40px;
+  background: #0e7988;
+  border: 2px solid #0e7988;
+  margin-top: 13px;
+  color: #fff;
+  font-size: 15px;
+  border-bottom-right-radius: 5px;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.srch:focus {
+  outline: none;
+}
